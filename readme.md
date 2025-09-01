@@ -37,3 +37,5 @@ git 学习
 
 14. git clone 地址 将远程仓库克隆到本地
 15. git pull origin dev 将远程代码拉取
+
+16. 修改远程仓库地址 git remote set-url [origin] git地址

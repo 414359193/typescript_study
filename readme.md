@@ -39,3 +39,26 @@ git 学习
 15. git pull origin dev 将远程代码拉取
 
 16. 修改远程仓库地址 git remote set-url [origin] git地址
+
+
+特性	Object.keys()	Reflect.ownKeys()
+包含不可枚举属性	❌ 不包含	✅ 包含
+包含 Symbol 属性	❌ 不包含	✅ 包含
+包含继承属性	❌ 不包含	❌ 不包含
+返回顺序	同 for...in	数字键 → 字符串键 → Symbol 键
+# 创建函数的几种方式
+- 函数声明  
+- 函数表达式
+- 箭头函数
+- 匿名函数 
+# 创建对象的几种方式
+- 对象字面量 
+- 对象构造函数 new
+- Object.create(原型，新属性)
+- 工厂函数 返回对象的函数
+- 类 使用类定义对象  
+
+获取元素位置
+getBoundingClientRect()
+
+<!-- js 87  90 94 95-->
